@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE74DEE61C4E787E0090520A /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEE51C4E787E0090520A /* FileManager.m */; };
+		FE74DEE91C4E7D220090520A /* GetWeatherMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEE81C4E7D220090520A /* GetWeatherMediator.m */; };
+		FE74DEEE1C4E7DB00090520A /* Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEED1C4E7DB00090520A /* Basic.m */; };
+		FE74DEF11C4E7DCA0090520A /* Aqi.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEF01C4E7DCA0090520A /* Aqi.m */; };
+		FE74DEF41C4E7DDC0090520A /* Suggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEF31C4E7DDC0090520A /* Suggestion.m */; };
+		FE74DEF71C4E7DF90090520A /* Alarms.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEF61C4E7DF90090520A /* Alarms.m */; };
+		FE74DEFD1C4E7E2B0090520A /* Now.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEFC1C4E7E2B0090520A /* Now.m */; };
+		FE74DF001C4E7E440090520A /* DailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DEFF1C4E7E440090520A /* DailyForecast.m */; };
+		FE74DF031C4E7E5A0090520A /* HourlyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF021C4E7E5A0090520A /* HourlyForecast.m */; };
+		FE74DF061C4E7E7A0090520A /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF051C4E7E7A0090520A /* Weather.m */; };
+		FE74DF0A1C4E8BED0090520A /* Json2Alarms.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF091C4E8BED0090520A /* Json2Alarms.m */; };
+		FE74DF0D1C4E8CE70090520A /* Json2Api.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF0C1C4E8CE70090520A /* Json2Api.m */; };
+		FE74DF101C4E8D050090520A /* Json2Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF0F1C4E8D050090520A /* Json2Basic.m */; };
+		FE74DF131C4E8D1D0090520A /* Json2DailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF121C4E8D1D0090520A /* Json2DailyForecast.m */; };
+		FE74DF161C4E8D3C0090520A /* Json2HourlyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF151C4E8D3C0090520A /* Json2HourlyForecast.m */; };
+		FE74DF191C4E8D4A0090520A /* Json2Now.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF181C4E8D4A0090520A /* Json2Now.m */; };
+		FE74DF1D1C4E8D690090520A /* Json2Suggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = FE74DF1C1C4E8D690090520A /* Json2Suggestion.m */; };
+		FE81636E1C4D0A99009A7A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE81636D1C4D0A99009A7A58 /* main.m */; };
+		FE8163711C4D0A99009A7A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163701C4D0A99009A7A58 /* AppDelegate.m */; };
+		FE8163741C4D0A99009A7A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163731C4D0A99009A7A58 /* ViewController.m */; };
+		FE8163771C4D0A99009A7A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8163751C4D0A99009A7A58 /* Main.storyboard */; };
+		FE8163791C4D0A99009A7A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8163781C4D0A99009A7A58 /* Assets.xcassets */; };
+		FE81637C1C4D0A99009A7A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE81637A1C4D0A99009A7A58 /* LaunchScreen.storyboard */; };
+		FE8163871C4D0A99009A7A58 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163861C4D0A99009A7A58 /* ____Tests.m */; };
+		FE8163921C4D0A99009A7A58 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163911C4D0A99009A7A58 /* ____UITests.m */; };
+		FE8163A11C4D0B00009A7A58 /* HWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163A01C4D0B00009A7A58 /* HWeather.m */; };
+		FE8163A51C4D1458009A7A58 /* Json2Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163A41C4D1458009A7A58 /* Json2Weather.m */; };
+		FE8163AA1C4D20A7009A7A58 /* WeatherRest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163A91C4D20A7009A7A58 /* WeatherRest.m */; };
+		FE8163C71C4D2480009A7A58 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163AE1C4D2480009A7A58 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163C81C4D2480009A7A58 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163B11C4D2480009A7A58 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163C91C4D2480009A7A58 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163B31C4D2480009A7A58 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163CA1C4D2480009A7A58 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163B51C4D2480009A7A58 /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163CB1C4D2480009A7A58 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163B71C4D2480009A7A58 /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163CC1C4D2480009A7A58 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163B91C4D2480009A7A58 /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163CD1C4D2480009A7A58 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163BD1C4D2480009A7A58 /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163CE1C4D2480009A7A58 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163BF1C4D2480009A7A58 /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163CF1C4D2480009A7A58 /* README-GHUnit in Resources */ = {isa = PBXBuildFile; fileRef = FE8163C31C4D2480009A7A58 /* README-GHUnit */; };
+		FE8163D01C4D2480009A7A58 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8163C61C4D2480009A7A58 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE8163D21C4D2589009A7A58 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8163D11C4D2589009A7A58 /* CFNetwork.framework */; };
+		FE8163D41C4D25AB009A7A58 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8163D31C4D25AB009A7A58 /* SystemConfiguration.framework */; };
+		FE8163D61C4D25B5009A7A58 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8163D51C4D25B5009A7A58 /* MobileCoreServices.framework */; };
+		FE8163D81C4D25C9009A7A58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8163D71C4D25C9009A7A58 /* CoreGraphics.framework */; };
+		FE8163DA1C4D25D6009A7A58 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8163D91C4D25D6009A7A58 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8163831C4D0A99009A7A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8163611C4D0A99009A7A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8163681C4D0A99009A7A58;
+			remoteInfo = "窗外天气";
+		};
+		FE81638E1C4D0A99009A7A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8163611C4D0A99009A7A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8163681C4D0A99009A7A58;
+			remoteInfo = "窗外天气";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE74DEE41C4E787E0090520A /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileManager.h; path = Util/FileManager.h; sourceTree = "<group>"; };
+		FE74DEE51C4E787E0090520A /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileManager.m; path = Util/FileManager.m; sourceTree = "<group>"; };
+		FE74DEE71C4E7D220090520A /* GetWeatherMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetWeatherMediator.h; path = Mediator/GetWeatherMediator.h; sourceTree = "<group>"; };
+		FE74DEE81C4E7D220090520A /* GetWeatherMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetWeatherMediator.m; path = Mediator/GetWeatherMediator.m; sourceTree = "<group>"; };
+		FE74DEEC1C4E7DB00090520A /* Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Basic.h; path = Model/Weather/Basic.h; sourceTree = "<group>"; };
+		FE74DEED1C4E7DB00090520A /* Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Basic.m; path = Model/Weather/Basic.m; sourceTree = "<group>"; };
+		FE74DEEF1C4E7DCA0090520A /* Aqi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Aqi.h; path = Model/Weather/Aqi.h; sourceTree = "<group>"; };
+		FE74DEF01C4E7DCA0090520A /* Aqi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Aqi.m; path = Model/Weather/Aqi.m; sourceTree = "<group>"; };
+		FE74DEF21C4E7DDC0090520A /* Suggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suggestion.h; path = Model/Weather/Suggestion.h; sourceTree = "<group>"; };
+		FE74DEF31C4E7DDC0090520A /* Suggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Suggestion.m; path = Model/Weather/Suggestion.m; sourceTree = "<group>"; };
+		FE74DEF51C4E7DF90090520A /* Alarms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alarms.h; path = Model/Weather/Alarms.h; sourceTree = "<group>"; };
+		FE74DEF61C4E7DF90090520A /* Alarms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alarms.m; path = Model/Weather/Alarms.m; sourceTree = "<group>"; };
+		FE74DEFB1C4E7E2B0090520A /* Now.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Now.h; path = Model/Weather/Now.h; sourceTree = "<group>"; };
+		FE74DEFC1C4E7E2B0090520A /* Now.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Now.m; path = Model/Weather/Now.m; sourceTree = "<group>"; };
+		FE74DEFE1C4E7E440090520A /* DailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DailyForecast.h; path = Model/Weather/DailyForecast.h; sourceTree = "<group>"; };
+		FE74DEFF1C4E7E440090520A /* DailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DailyForecast.m; path = Model/Weather/DailyForecast.m; sourceTree = "<group>"; };
+		FE74DF011C4E7E5A0090520A /* HourlyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HourlyForecast.h; path = Model/Weather/HourlyForecast.h; sourceTree = "<group>"; };
+		FE74DF021C4E7E5A0090520A /* HourlyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HourlyForecast.m; path = Model/Weather/HourlyForecast.m; sourceTree = "<group>"; };
+		FE74DF041C4E7E7A0090520A /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weather.h; path = Model/Weather/Weather.h; sourceTree = "<group>"; };
+		FE74DF051C4E7E7A0090520A /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weather.m; path = Model/Weather/Weather.m; sourceTree = "<group>"; };
+		FE74DF081C4E8BED0090520A /* Json2Alarms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2Alarms.h; path = Json2Object/Weather/Json2Alarms.h; sourceTree = "<group>"; };
+		FE74DF091C4E8BED0090520A /* Json2Alarms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2Alarms.m; path = Json2Object/Weather/Json2Alarms.m; sourceTree = "<group>"; };
+		FE74DF0B1C4E8CE70090520A /* Json2Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2Api.h; path = Json2Object/Weather/Json2Api.h; sourceTree = "<group>"; };
+		FE74DF0C1C4E8CE70090520A /* Json2Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2Api.m; path = Json2Object/Weather/Json2Api.m; sourceTree = "<group>"; };
+		FE74DF0E1C4E8D050090520A /* Json2Basic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2Basic.h; path = Json2Object/Weather/Json2Basic.h; sourceTree = "<group>"; };
+		FE74DF0F1C4E8D050090520A /* Json2Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2Basic.m; path = Json2Object/Weather/Json2Basic.m; sourceTree = "<group>"; };
+		FE74DF111C4E8D1D0090520A /* Json2DailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2DailyForecast.h; path = Json2Object/Weather/Json2DailyForecast.h; sourceTree = "<group>"; };
+		FE74DF121C4E8D1D0090520A /* Json2DailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2DailyForecast.m; path = Json2Object/Weather/Json2DailyForecast.m; sourceTree = "<group>"; };
+		FE74DF141C4E8D3C0090520A /* Json2HourlyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2HourlyForecast.h; path = Json2Object/Weather/Json2HourlyForecast.h; sourceTree = "<group>"; };
+		FE74DF151C4E8D3C0090520A /* Json2HourlyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2HourlyForecast.m; path = Json2Object/Weather/Json2HourlyForecast.m; sourceTree = "<group>"; };
+		FE74DF171C4E8D4A0090520A /* Json2Now.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2Now.h; path = Json2Object/Weather/Json2Now.h; sourceTree = "<group>"; };
+		FE74DF181C4E8D4A0090520A /* Json2Now.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2Now.m; path = Json2Object/Weather/Json2Now.m; sourceTree = "<group>"; };
+		FE74DF1B1C4E8D690090520A /* Json2Suggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2Suggestion.h; path = Json2Object/Weather/Json2Suggestion.h; sourceTree = "<group>"; };
+		FE74DF1C1C4E8D690090520A /* Json2Suggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2Suggestion.m; path = Json2Object/Weather/Json2Suggestion.m; sourceTree = "<group>"; };
+		FE8163691C4D0A99009A7A58 /* 窗外天气.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "窗外天气.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE81636D1C4D0A99009A7A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE81636F1C4D0A99009A7A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE8163701C4D0A99009A7A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE8163721C4D0A99009A7A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE8163731C4D0A99009A7A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE8163761C4D0A99009A7A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE8163781C4D0A99009A7A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE81637B1C4D0A99009A7A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE81637D1C4D0A99009A7A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8163821C4D0A99009A7A58 /* 窗外天气Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "窗外天气Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8163861C4D0A99009A7A58 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		FE8163881C4D0A99009A7A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE81638D1C4D0A99009A7A58 /* 窗外天气UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "窗外天气UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8163911C4D0A99009A7A58 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		FE8163931C4D0A99009A7A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE81639F1C4D0B00009A7A58 /* HWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWeather.h; path = Http/HWeather.h; sourceTree = "<group>"; };
+		FE8163A01C4D0B00009A7A58 /* HWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWeather.m; path = Http/HWeather.m; sourceTree = "<group>"; };
+		FE8163A31C4D1458009A7A58 /* Json2Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Json2Weather.h; path = Json2Object/Json2Weather.h; sourceTree = "<group>"; };
+		FE8163A41C4D1458009A7A58 /* Json2Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Json2Weather.m; path = Json2Object/Json2Weather.m; sourceTree = "<group>"; };
+		FE8163A81C4D20A7009A7A58 /* WeatherRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherRest.h; path = Rest/WeatherRest.h; sourceTree = "<group>"; };
+		FE8163A91C4D20A7009A7A58 /* WeatherRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherRest.m; path = Rest/WeatherRest.m; sourceTree = "<group>"; };
+		FE8163AD1C4D2480009A7A58 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		FE8163AE1C4D2480009A7A58 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		FE8163AF1C4D2480009A7A58 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		FE8163B01C4D2480009A7A58 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		FE8163B11C4D2480009A7A58 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		FE8163B21C4D2480009A7A58 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		FE8163B31C4D2480009A7A58 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		FE8163B41C4D2480009A7A58 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		FE8163B51C4D2480009A7A58 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		FE8163B61C4D2480009A7A58 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		FE8163B71C4D2480009A7A58 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		FE8163B81C4D2480009A7A58 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		FE8163B91C4D2480009A7A58 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		FE8163BA1C4D2480009A7A58 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FE8163BB1C4D2480009A7A58 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FE8163BC1C4D2480009A7A58 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		FE8163BD1C4D2480009A7A58 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		FE8163BE1C4D2480009A7A58 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		FE8163BF1C4D2480009A7A58 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		FE8163C01C4D2480009A7A58 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		FE8163C31C4D2480009A7A58 /* README-GHUnit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "README-GHUnit"; sourceTree = "<group>"; };
+		FE8163C51C4D2480009A7A58 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FE8163C61C4D2480009A7A58 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FE8163D11C4D2589009A7A58 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FE8163D31C4D25AB009A7A58 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FE8163D51C4D25B5009A7A58 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FE8163D71C4D25C9009A7A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE8163D91C4D25D6009A7A58 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8163661C4D0A99009A7A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8163DA1C4D25D6009A7A58 /* libz.tbd in Frameworks */,
+				FE8163D81C4D25C9009A7A58 /* CoreGraphics.framework in Frameworks */,
+				FE8163D61C4D25B5009A7A58 /* MobileCoreServices.framework in Frameworks */,
+				FE8163D41C4D25AB009A7A58 /* SystemConfiguration.framework in Frameworks */,
+				FE8163D21C4D2589009A7A58 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE81637F1C4D0A99009A7A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE81638A1C4D0A99009A7A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE74DEE21C4E776F0090520A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DEE41C4E787E0090520A /* FileManager.h */,
+				FE74DEE51C4E787E0090520A /* FileManager.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		FE74DEE31C4E77880090520A /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DEE71C4E7D220090520A /* GetWeatherMediator.h */,
+				FE74DEE81C4E7D220090520A /* GetWeatherMediator.m */,
+			);
+			name = Mediator;
+			sourceTree = "<group>";
+		};
+		FE74DEEA1C4E7D5D0090520A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DEEB1C4E7D7A0090520A /* Weather */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FE74DEEB1C4E7D7A0090520A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DEF51C4E7DF90090520A /* Alarms.h */,
+				FE74DEF61C4E7DF90090520A /* Alarms.m */,
+				FE74DEEF1C4E7DCA0090520A /* Aqi.h */,
+				FE74DEF01C4E7DCA0090520A /* Aqi.m */,
+				FE74DEEC1C4E7DB00090520A /* Basic.h */,
+				FE74DEED1C4E7DB00090520A /* Basic.m */,
+				FE74DEFE1C4E7E440090520A /* DailyForecast.h */,
+				FE74DEFF1C4E7E440090520A /* DailyForecast.m */,
+				FE74DF011C4E7E5A0090520A /* HourlyForecast.h */,
+				FE74DF021C4E7E5A0090520A /* HourlyForecast.m */,
+				FE74DEFB1C4E7E2B0090520A /* Now.h */,
+				FE74DEFC1C4E7E2B0090520A /* Now.m */,
+				FE74DEF21C4E7DDC0090520A /* Suggestion.h */,
+				FE74DEF31C4E7DDC0090520A /* Suggestion.m */,
+				FE74DF041C4E7E7A0090520A /* Weather.h */,
+				FE74DF051C4E7E7A0090520A /* Weather.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		FE74DF071C4E8BC50090520A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163A31C4D1458009A7A58 /* Json2Weather.h */,
+				FE8163A41C4D1458009A7A58 /* Json2Weather.m */,
+				FE74DF081C4E8BED0090520A /* Json2Alarms.h */,
+				FE74DF091C4E8BED0090520A /* Json2Alarms.m */,
+				FE74DF0B1C4E8CE70090520A /* Json2Api.h */,
+				FE74DF0C1C4E8CE70090520A /* Json2Api.m */,
+				FE74DF0E1C4E8D050090520A /* Json2Basic.h */,
+				FE74DF0F1C4E8D050090520A /* Json2Basic.m */,
+				FE74DF111C4E8D1D0090520A /* Json2DailyForecast.h */,
+				FE74DF121C4E8D1D0090520A /* Json2DailyForecast.m */,
+				FE74DF141C4E8D3C0090520A /* Json2HourlyForecast.h */,
+				FE74DF151C4E8D3C0090520A /* Json2HourlyForecast.m */,
+				FE74DF171C4E8D4A0090520A /* Json2Now.h */,
+				FE74DF181C4E8D4A0090520A /* Json2Now.m */,
+				FE74DF1B1C4E8D690090520A /* Json2Suggestion.h */,
+				FE74DF1C1C4E8D690090520A /* Json2Suggestion.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		FE8163601C4D0A99009A7A58 = {
+			isa = PBXGroup;
+			children = (
+				FE8163DB1C4D25DF009A7A58 /* Framework */,
+				FE81636B1C4D0A99009A7A58 /* 窗外天气 */,
+				FE8163851C4D0A99009A7A58 /* 窗外天气Tests */,
+				FE8163901C4D0A99009A7A58 /* 窗外天气UITests */,
+				FE81636A1C4D0A99009A7A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE81636A1C4D0A99009A7A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163691C4D0A99009A7A58 /* 窗外天气.app */,
+				FE8163821C4D0A99009A7A58 /* 窗外天气Tests.xctest */,
+				FE81638D1C4D0A99009A7A58 /* 窗外天气UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE81636B1C4D0A99009A7A58 /* 窗外天气 */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DEEA1C4E7D5D0090520A /* Model */,
+				FE74DEE31C4E77880090520A /* Mediator */,
+				FE74DEE21C4E776F0090520A /* Util */,
+				FE8163A71C4D2093009A7A58 /* Rest */,
+				FE8163A61C4D1460009A7A58 /* Json2Object */,
+				FE8163A21C4D0B03009A7A58 /* HTTP */,
+				FE81636F1C4D0A99009A7A58 /* AppDelegate.h */,
+				FE8163701C4D0A99009A7A58 /* AppDelegate.m */,
+				FE8163721C4D0A99009A7A58 /* ViewController.h */,
+				FE8163731C4D0A99009A7A58 /* ViewController.m */,
+				FE8163751C4D0A99009A7A58 /* Main.storyboard */,
+				FE8163781C4D0A99009A7A58 /* Assets.xcassets */,
+				FE81637A1C4D0A99009A7A58 /* LaunchScreen.storyboard */,
+				FE81637D1C4D0A99009A7A58 /* Info.plist */,
+				FE81636C1C4D0A99009A7A58 /* Supporting Files */,
+			);
+			path = "窗外天气";
+			sourceTree = "<group>";
+		};
+		FE81636C1C4D0A99009A7A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE81636D1C4D0A99009A7A58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE8163851C4D0A99009A7A58 /* 窗外天气Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163861C4D0A99009A7A58 /* ____Tests.m */,
+				FE8163881C4D0A99009A7A58 /* Info.plist */,
+			);
+			path = "窗外天气Tests";
+			sourceTree = "<group>";
+		};
+		FE8163901C4D0A99009A7A58 /* 窗外天气UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163911C4D0A99009A7A58 /* ____UITests.m */,
+				FE8163931C4D0A99009A7A58 /* Info.plist */,
+			);
+			path = "窗外天气UITests";
+			sourceTree = "<group>";
+		};
+		FE8163A21C4D0B03009A7A58 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163AB1C4D2480009A7A58 /* ASIHTTPRequest */,
+				FE81639F1C4D0B00009A7A58 /* HWeather.h */,
+				FE8163A01C4D0B00009A7A58 /* HWeather.m */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		FE8163A61C4D1460009A7A58 /* Json2Object */ = {
+			isa = PBXGroup;
+			children = (
+				FE74DF071C4E8BC50090520A /* Weather */,
+			);
+			name = Json2Object;
+			sourceTree = "<group>";
+		};
+		FE8163A71C4D2093009A7A58 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163A81C4D20A7009A7A58 /* WeatherRest.h */,
+				FE8163A91C4D20A7009A7A58 /* WeatherRest.m */,
+			);
+			name = Rest;
+			sourceTree = "<group>";
+		};
+		FE8163AB1C4D2480009A7A58 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163AC1C4D2480009A7A58 /* Classes */,
+				FE8163C11C4D2480009A7A58 /* External */,
+			);
+			name = ASIHTTPRequest;
+			path = Http/ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		FE8163AC1C4D2480009A7A58 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163AD1C4D2480009A7A58 /* ASIAuthenticationDialog.h */,
+				FE8163AE1C4D2480009A7A58 /* ASIAuthenticationDialog.m */,
+				FE8163AF1C4D2480009A7A58 /* ASICacheDelegate.h */,
+				FE8163B01C4D2480009A7A58 /* ASIDataCompressor.h */,
+				FE8163B11C4D2480009A7A58 /* ASIDataCompressor.m */,
+				FE8163B21C4D2480009A7A58 /* ASIDataDecompressor.h */,
+				FE8163B31C4D2480009A7A58 /* ASIDataDecompressor.m */,
+				FE8163B41C4D2480009A7A58 /* ASIDownloadCache.h */,
+				FE8163B51C4D2480009A7A58 /* ASIDownloadCache.m */,
+				FE8163B61C4D2480009A7A58 /* ASIFormDataRequest.h */,
+				FE8163B71C4D2480009A7A58 /* ASIFormDataRequest.m */,
+				FE8163B81C4D2480009A7A58 /* ASIHTTPRequest.h */,
+				FE8163B91C4D2480009A7A58 /* ASIHTTPRequest.m */,
+				FE8163BA1C4D2480009A7A58 /* ASIHTTPRequestConfig.h */,
+				FE8163BB1C4D2480009A7A58 /* ASIHTTPRequestDelegate.h */,
+				FE8163BC1C4D2480009A7A58 /* ASIInputStream.h */,
+				FE8163BD1C4D2480009A7A58 /* ASIInputStream.m */,
+				FE8163BE1C4D2480009A7A58 /* ASINetworkQueue.h */,
+				FE8163BF1C4D2480009A7A58 /* ASINetworkQueue.m */,
+				FE8163C01C4D2480009A7A58 /* ASIProgressDelegate.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE8163C11C4D2480009A7A58 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163C21C4D2480009A7A58 /* GHUnit */,
+				FE8163C41C4D2480009A7A58 /* Reachability */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		FE8163C21C4D2480009A7A58 /* GHUnit */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163C31C4D2480009A7A58 /* README-GHUnit */,
+			);
+			path = GHUnit;
+			sourceTree = "<group>";
+		};
+		FE8163C41C4D2480009A7A58 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163C51C4D2480009A7A58 /* Reachability.h */,
+				FE8163C61C4D2480009A7A58 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		FE8163DB1C4D25DF009A7A58 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				FE8163D91C4D25D6009A7A58 /* libz.tbd */,
+				FE8163D71C4D25C9009A7A58 /* CoreGraphics.framework */,
+				FE8163D51C4D25B5009A7A58 /* MobileCoreServices.framework */,
+				FE8163D31C4D25AB009A7A58 /* SystemConfiguration.framework */,
+				FE8163D11C4D2589009A7A58 /* CFNetwork.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8163681C4D0A99009A7A58 /* 窗外天气 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8163961C4D0A99009A7A58 /* Build configuration list for PBXNativeTarget "窗外天气" */;
+			buildPhases = (
+				FE8163651C4D0A99009A7A58 /* Sources */,
+				FE8163661C4D0A99009A7A58 /* Frameworks */,
+				FE8163671C4D0A99009A7A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "窗外天气";
+			productName = "窗外天气";
+			productReference = FE8163691C4D0A99009A7A58 /* 窗外天气.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8163811C4D0A99009A7A58 /* 窗外天气Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8163991C4D0A99009A7A58 /* Build configuration list for PBXNativeTarget "窗外天气Tests" */;
+			buildPhases = (
+				FE81637E1C4D0A99009A7A58 /* Sources */,
+				FE81637F1C4D0A99009A7A58 /* Frameworks */,
+				FE8163801C4D0A99009A7A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8163841C4D0A99009A7A58 /* PBXTargetDependency */,
+			);
+			name = "窗外天气Tests";
+			productName = "窗外天气Tests";
+			productReference = FE8163821C4D0A99009A7A58 /* 窗外天气Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE81638C1C4D0A99009A7A58 /* 窗外天气UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE81639C1C4D0A99009A7A58 /* Build configuration list for PBXNativeTarget "窗外天气UITests" */;
+			buildPhases = (
+				FE8163891C4D0A99009A7A58 /* Sources */,
+				FE81638A1C4D0A99009A7A58 /* Frameworks */,
+				FE81638B1C4D0A99009A7A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE81638F1C4D0A99009A7A58 /* PBXTargetDependency */,
+			);
+			name = "窗外天气UITests";
+			productName = "窗外天气UITests";
+			productReference = FE81638D1C4D0A99009A7A58 /* 窗外天气UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8163611C4D0A99009A7A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lisking;
+				TargetAttributes = {
+					FE8163681C4D0A99009A7A58 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D6SZ4A2XBD;
+					};
+					FE8163811C4D0A99009A7A58 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FE8163681C4D0A99009A7A58;
+					};
+					FE81638C1C4D0A99009A7A58 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FE8163681C4D0A99009A7A58;
+					};
+				};
+			};
+			buildConfigurationList = FE8163641C4D0A99009A7A58 /* Build configuration list for PBXProject "窗外天气" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8163601C4D0A99009A7A58;
+			productRefGroup = FE81636A1C4D0A99009A7A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8163681C4D0A99009A7A58 /* 窗外天气 */,
+				FE8163811C4D0A99009A7A58 /* 窗外天气Tests */,
+				FE81638C1C4D0A99009A7A58 /* 窗外天气UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8163671C4D0A99009A7A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE81637C1C4D0A99009A7A58 /* LaunchScreen.storyboard in Resources */,
+				FE8163791C4D0A99009A7A58 /* Assets.xcassets in Resources */,
+				FE8163771C4D0A99009A7A58 /* Main.storyboard in Resources */,
+				FE8163CF1C4D2480009A7A58 /* README-GHUnit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8163801C4D0A99009A7A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE81638B1C4D0A99009A7A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8163651C4D0A99009A7A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE74DF1D1C4E8D690090520A /* Json2Suggestion.m in Sources */,
+				FE74DEFD1C4E7E2B0090520A /* Now.m in Sources */,
+				FE74DF101C4E8D050090520A /* Json2Basic.m in Sources */,
+				FE74DEEE1C4E7DB00090520A /* Basic.m in Sources */,
+				FE8163741C4D0A99009A7A58 /* ViewController.m in Sources */,
+				FE8163CD1C4D2480009A7A58 /* ASIInputStream.m in Sources */,
+				FE74DF0A1C4E8BED0090520A /* Json2Alarms.m in Sources */,
+				FE74DF061C4E7E7A0090520A /* Weather.m in Sources */,
+				FE74DEF41C4E7DDC0090520A /* Suggestion.m in Sources */,
+				FE8163A11C4D0B00009A7A58 /* HWeather.m in Sources */,
+				FE74DF131C4E8D1D0090520A /* Json2DailyForecast.m in Sources */,
+				FE74DEE91C4E7D220090520A /* GetWeatherMediator.m in Sources */,
+				FE74DEE61C4E787E0090520A /* FileManager.m in Sources */,
+				FE8163CA1C4D2480009A7A58 /* ASIDownloadCache.m in Sources */,
+				FE8163D01C4D2480009A7A58 /* Reachability.m in Sources */,
+				FE8163C81C4D2480009A7A58 /* ASIDataCompressor.m in Sources */,
+				FE74DF0D1C4E8CE70090520A /* Json2Api.m in Sources */,
+				FE74DF161C4E8D3C0090520A /* Json2HourlyForecast.m in Sources */,
+				FE8163711C4D0A99009A7A58 /* AppDelegate.m in Sources */,
+				FE8163CC1C4D2480009A7A58 /* ASIHTTPRequest.m in Sources */,
+				FE74DF031C4E7E5A0090520A /* HourlyForecast.m in Sources */,
+				FE81636E1C4D0A99009A7A58 /* main.m in Sources */,
+				FE74DEF11C4E7DCA0090520A /* Aqi.m in Sources */,
+				FE74DF191C4E8D4A0090520A /* Json2Now.m in Sources */,
+				FE8163C91C4D2480009A7A58 /* ASIDataDecompressor.m in Sources */,
+				FE74DF001C4E7E440090520A /* DailyForecast.m in Sources */,
+				FE8163AA1C4D20A7009A7A58 /* WeatherRest.m in Sources */,
+				FE8163CE1C4D2480009A7A58 /* ASINetworkQueue.m in Sources */,
+				FE74DEF71C4E7DF90090520A /* Alarms.m in Sources */,
+				FE8163C71C4D2480009A7A58 /* ASIAuthenticationDialog.m in Sources */,
+				FE8163CB1C4D2480009A7A58 /* ASIFormDataRequest.m in Sources */,
+				FE8163A51C4D1458009A7A58 /* Json2Weather.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE81637E1C4D0A99009A7A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8163871C4D0A99009A7A58 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8163891C4D0A99009A7A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8163921C4D0A99009A7A58 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8163841C4D0A99009A7A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8163681C4D0A99009A7A58 /* 窗外天气 */;
+			targetProxy = FE8163831C4D0A99009A7A58 /* PBXContainerItemProxy */;
+		};
+		FE81638F1C4D0A99009A7A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8163681C4D0A99009A7A58 /* 窗外天气 */;
+			targetProxy = FE81638E1C4D0A99009A7A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE8163751C4D0A99009A7A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8163761C4D0A99009A7A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE81637A1C4D0A99009A7A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE81637B1C4D0A99009A7A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8163941C4D0A99009A7A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE8163951C4D0A99009A7A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8163971C4D0A99009A7A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "窗外天气/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microcardio.cwatch.cardio.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE8163981C4D0A99009A7A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "窗外天气/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microcardio.cwatch.cardio.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE81639A1C4D0A99009A7A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "窗外天气Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microcardio.cwatch.cardio.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/窗外天气.app/窗外天气";
+			};
+			name = Debug;
+		};
+		FE81639B1C4D0A99009A7A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "窗外天气Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microcardio.cwatch.cardio.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/窗外天气.app/窗外天气";
+			};
+			name = Release;
+		};
+		FE81639D1C4D0A99009A7A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "窗外天气UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microcardio.cwatch.cardio.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "窗外天气";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE81639E1C4D0A99009A7A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "窗外天气UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.microcardio.cwatch.cardio.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "窗外天气";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8163641C4D0A99009A7A58 /* Build configuration list for PBXProject "窗外天气" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8163941C4D0A99009A7A58 /* Debug */,
+				FE8163951C4D0A99009A7A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8163961C4D0A99009A7A58 /* Build configuration list for PBXNativeTarget "窗外天气" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8163971C4D0A99009A7A58 /* Debug */,
+				FE8163981C4D0A99009A7A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8163991C4D0A99009A7A58 /* Build configuration list for PBXNativeTarget "窗外天气Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE81639A1C4D0A99009A7A58 /* Debug */,
+				FE81639B1C4D0A99009A7A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE81639C1C4D0A99009A7A58 /* Build configuration list for PBXNativeTarget "窗外天气UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE81639D1C4D0A99009A7A58 /* Debug */,
+				FE81639E1C4D0A99009A7A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8163611C4D0A99009A7A58 /* Project object */;
+}
